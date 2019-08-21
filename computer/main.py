@@ -5,6 +5,8 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 
 SPEED = 100
 
+# TODO: handle touch screen input
+
 def normalize (val, min1, max1, min2, max2):
 	span1 = max1 - min1
 	span2 = max2 - min2
